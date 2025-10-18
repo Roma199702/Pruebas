@@ -1,3 +1,4 @@
+
 class Franja:
     """
     Bloque horario a cubrir en un día específico.

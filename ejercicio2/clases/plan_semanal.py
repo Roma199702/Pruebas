@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import List, Dict
-from franja import Franja
+from .franja import Franja
 from .turno_asignado import TurnoAsignado
 from .colaborador import Colaborador
 from .politica_turno import PoliticaTurno

@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Optional, List, Dict
-from suscriptor import Suscriptor
-from material import Material
+from .suscriptor import Suscriptor
+from .material import Material
 
 class Retiro:
     """

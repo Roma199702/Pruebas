@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from typing import List
-from suscriptor import Suscriptor
-from retiro import Retiro
+from .suscriptor import Suscriptor
+from .retiro import Retiro
 
 class SistemaReciclaje:
     """

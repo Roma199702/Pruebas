@@ -79,7 +79,7 @@ def main():
     # ========================================================================
     # 4. TARIFAS Y COTIZACIÓN
     # ========================================================================
-    imprimir_separador("4. SISTEMA DE TARIFAS (Polimorfismo)")
+    imprimir_separador("4. SISTEMA DE TARIFAS")
     
     tarifa_diurna = TarifaDiurna(10000)
     tarifa_nocturna = TarifaNocturna(15000)

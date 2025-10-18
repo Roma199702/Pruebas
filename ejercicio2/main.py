@@ -3,9 +3,6 @@ EJERCICIO 2: Turnos para Cafetería Escolar
 Archivo principal que demuestra el funcionamiento del sistema
 """
 
-import sys
-sys.path.append('ejercicio2/clases')
-
 from clases.colaborador import Colaborador
 from clases.franja import Franja
 from clases.turno_asignado import TurnoAsignado

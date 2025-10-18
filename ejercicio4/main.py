@@ -3,14 +3,13 @@ EJERCICIO 4: Reciclaje Domiciliario con Puntos de Incentivo
 Archivo principal que demuestra el funcionamiento del sistema
 """
 
-import sys
-sys.path.append('ejercicio4/clases')
+
 
 from datetime import datetime, timedelta
-from suscriptor import Suscriptor
-from material import Plastico, Vidrio, PapelCarton
-from retiro import Retiro
-from sistema_reciclaje import SistemaReciclaje
+from clases.suscriptor import Suscriptor
+from clases.material import Plastico, Vidrio, PapelCarton
+from clases.retiro import Retiro
+from clases.sistema_reciclaje import SistemaReciclaje
 
 
 def imprimir_separador(titulo):
